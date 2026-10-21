@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrozona - Proyectos de Electrónica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <header>
+        <div class="marca">
+            <img src="./assets/electrozonalogo.png" alt="Electrozona">
+            <h1>Electrozona</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Proyectos de Electrónica</h2>
+            <p>Un espacio para compartir proyectos prácticos de electrónica, circuitos, diagramas y documentación.</p>
+            <a href="#proyectos" class="boton">Ver proyectos</a>
+        </section> 
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos-container">
+                <article class="proyecto">
+                    <h3>Amplificador de audio</h3>
+                    <p>Proyecto de un pequeño amplificador de audio utilizando componentes electrónicos convencionales.</p>
+                    <p><strong>Incluye:</strong> circuito, diagrama y lista de componentes.</p>
+                    <a href="#" class="boton">Ver proyecto</a>
+                </article>
+                <article class="proyecto">
+                    <h3>Fuente de alimentación</h3>
+                    <p>Fuente de alimentación regulada para alimentar diferentes proyectos electrónicos.</p>
+                    <p><strong>Incluye:</strong> circuito electrónico, componentes y documentación.</p>
+                    <a href="#" class="boton">Ver proyecto</a>
+                </article>
+                <article class="proyecto">
+                    <h3>Controlador con Arduino</h3>
+                    <p>Proyecto basado en Arduino para controlar diferentes dispositivos electrónicos.</p>
+                    <p><strong>Incluye:</strong> circuito electrónico, componentes y documentación.</p>
+                    <a href="#" class="boton">Ver proyecto</a>
+                </article>
+            </div>
+        </section> 
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Querés comunicarte con nosotros? Podés enviarnos un mensaje.</p>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu mensaje aquí..."></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main> 
+
+    <footer>
+        <p>© 2026 Electrozona - Proyectos de Electrónica</p>
+    </footer>
+</body>
+</html>
