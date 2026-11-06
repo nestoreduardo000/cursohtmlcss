@@ -283,3 +283,64 @@ footer {
     color: var(--color-texto-secundario);
 }
 
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 0.6rem;
+    }
+
+    .marca {
+        justify-content: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    #inicio {
+        min-height: 65vh;
+    }
+
+    .proyectos-container {
+        gap: 1rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.6rem 4vw;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 0.25rem;
+    }
+
+    nav ul li a {
+        padding: 0.4rem 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    section {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    #inicio {
+        min-height: 60vh;
+        padding-top: 10rem;
+    }
+
+    .proyecto {
+        max-width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+}
